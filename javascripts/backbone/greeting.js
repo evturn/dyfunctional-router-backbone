@@ -17,7 +17,14 @@ function showView2() {
 	if (view2 == null) {
 		view2 = new View2({ model: greeting });
 	}
-
 	container.myChildView = view2;
+	container.render();
+}
+
+function showView3() {
+	if (view3 == null) {
+		view3 = new View3({ model: greeting });
+	}
+	container.myChildView = view3;
 	container.render();
 }

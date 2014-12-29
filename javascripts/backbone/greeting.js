@@ -1,3 +1,6 @@
+var GreetModel = Backbone.Model.extend({});
+
+
 var greeting = new GreetModel({ Message: "Hello world" });
 
 var container = new ContainerView({ el: $('#AppContainer')});
